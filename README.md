@@ -15,6 +15,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 - live-server vscode extension or equivalent CLI tool
 _ adding testing changes
+- this is demo project Md
 ## Project Structure
 
 ```
