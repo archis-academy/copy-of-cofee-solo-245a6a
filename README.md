@@ -14,7 +14,7 @@ for building HTML and CSS projects.
 Before you begin, ensure you have the following installed on your machine:
 
 - live-server vscode extension or equivalent CLI tool
-
+_ adding testing changes
 ## Project Structure
 
 ```
@@ -30,3 +30,4 @@ html-css-boilerplate/
 │        ├── reset.css          # Reset styles
 │        ├── variables.css      # Custom variables
 ```
+\n# Branch protection test
