@@ -14,13 +14,7 @@ for building HTML and CSS projects.
 Before you begin, ensure you have the following installed on your machine:
 
 - live-server vscode extension or equivalent CLI tool
-_ adding testing changes
-- this is demo project Md
--djjdsjd
-djlsldkl
-changes added in branch name
-this time adding the ticket number in the commit 
-this is for testing - finaly with Co-1
+ 
 ## Project Structure
 
 ```

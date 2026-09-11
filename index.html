@@ -31,5 +31,103 @@
       const copyRightYear = document.getElementById("copyright-year");
       copyRightYear.innerText = new Date().getFullYear();
     </script>
+    <!-- SECTION: footer -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <!-- Column 1: Address & Hours -->
+    <div class="footer-column">
+      <h2>Tasting Room</h2>
+      <address>
+        Kaya Coffee<br>
+        123 Bean Street<br>
+        Brewtown, BT 45678
+      </address>
+      <dl>
+        <dt>Mon–Fri:</dt>
+        <dd>8 AM – 6 PM</dd>
+        <dt>Sat–Sun:</dt>
+        <dd>9 AM – 4 PM</dd>
+      </dl>
+    </div>
+
+    <!-- Column 2: Contact -->
+    <div class="footer-column">
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:hello@kayacoffee.example">hello@kayacoffee.example</a>
+      </p>
+    </div>
+
+    <!-- Column 3: Navigation -->
+    <div class="footer-column">
+      <h2>Explore</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Kaya Coffee. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+  // Insert current year automatically
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<style>
+  .site-footer {
+    background-color: #222; /* dark background */
+    color: #fff; /* ensures 4.5:1 contrast */
+    padding: 2rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-column h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-column a:focus,
+  .footer-column a:hover {
+    outline: 2px solid #fff; /* visible keyboard focus */
+    outline-offset: 2px;
+  }
+
+  .footer-bottom {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  /* Responsive layout */
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .footer-column {
+      flex: 1;
+    }
+  }
+</style>
+<!-- END SECTION: footer -->
+
   </body>
 </html>
