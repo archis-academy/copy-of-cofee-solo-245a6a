@@ -9,12 +9,6 @@ for building HTML and CSS projects.
 
 ## Getting Started
 
-### Prerequisites
-
-Before you begin, ensure you have the following installed on your machine:
-
-- live-server vscode extension or equivalent CLI tool
- 
 ## Project Structure
 
 ```
